@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: rgb(80, 80, 233);
+  }
+  .back {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    border-radius: 40px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 28px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+   background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+
+  }
+  .login-box form button {
+    position: relative;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 16px;
+    overflow: hidden;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    border-radius: 10px;
+  }
+.login-box button span {
+    position: absolute;
+    display: block;
+  }
+  @media (max-width: 600px) {
+    .login-box {
+        width: 80%;
+    }
+  }
+#helpb{
+    background-color: orange;
+    position: relative;
+    left: 105px;
+}
+#loginb{
+    background-color: orange;
+    position: relative;
+    left: 100px;
+}
+  
